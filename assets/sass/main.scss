@@ -3,11 +3,19 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
+<<<<<<< HEAD
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
 
 /*
 	Dimension by HTML5 UP
+=======
+@import 'libs/html-grid';
+@import 'fontawesome-all.min.css';
+
+/*
+	Hyperspace by HTML5 UP
+>>>>>>> ba8acb630f5ad7eb34e3b11e8786f67a0ca318b9
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -31,12 +39,21 @@
 
 // Component.
 
+<<<<<<< HEAD
 	@import 'components/form';
 	@import 'components/box';
+=======
+	@import 'components/row';
+	@import 'components/box';
+	@import 'components/button';
+	@import 'components/features';
+	@import 'components/form';
+>>>>>>> ba8acb630f5ad7eb34e3b11e8786f67a0ca318b9
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';
 	@import 'components/actions';
+<<<<<<< HEAD
 	@import 'components/icons';
 	@import 'components/table';
 	@import 'components/button';
@@ -48,3 +65,21 @@
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+=======
+	@import 'components/contact';
+	@import 'components/icons';
+	@import 'components/menu';
+	@import 'components/section';
+	@import 'components/split';
+	@import 'components/spotlights';
+	@import 'components/table';
+	@import 'components/wrapper';
+
+// Layout.
+
+	@import 'layout/header';
+	@import 'layout/wrapper';
+	@import 'layout/footer';
+	@import 'layout/sidebar';
+	@import 'layout/intro';
+>>>>>>> ba8acb630f5ad7eb34e3b11e8786f67a0ca318b9

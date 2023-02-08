@@ -3,13 +3,21 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
+<<<<<<< HEAD
 
 /*
 	Dimension by HTML5 UP
+=======
+@import 'libs/html-grid';
+
+/*
+	Hyperspace by HTML5 UP
+>>>>>>> ba8acb630f5ad7eb34e3b11e8786f67a0ca318b9
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+<<<<<<< HEAD
 /* BG */
 
 	#bg {
@@ -35,16 +43,58 @@
 					max-height: none;
 					padding: 3rem 2rem;
 					opacity: 1;
+=======
+/* Spotlights */
+
+	.spotlights {
+		> section {
+			> .image {
+				&:before {
+					opacity: 0 !important;
+				}
+			}
+
+			> .content {
+				> .inner {
+					@include vendor('transform', 'none !important');
+					opacity: 1 !important;
+>>>>>>> ba8acb630f5ad7eb34e3b11e8786f67a0ca318b9
 				}
 			}
 		}
 	}
 
+<<<<<<< HEAD
 /* Main */
 
 	#main {
 		article {
 			opacity: 1;
 			margin: (_size(element-margin) * 2) 0 0 0;
+=======
+/* Wrapper */
+
+	.wrapper {
+		> .inner {
+			opacity: 1 !important;
+			@include vendor('transform', 'none !important');
+		}
+	}
+
+/* Sidebar */
+
+	#sidebar {
+		> .inner {
+			opacity: 1 !important;
+		}
+
+		nav {
+			> ul {
+				> li {
+					@include vendor('transform', 'none !important');
+					opacity: 1 !important;
+				}
+			}
+>>>>>>> ba8acb630f5ad7eb34e3b11e8786f67a0ca318b9
 		}
 	}
